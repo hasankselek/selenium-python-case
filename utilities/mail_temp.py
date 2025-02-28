@@ -35,7 +35,7 @@ class MailTmHelper:
 '''
 kullanım
 if __name__ == "__main__":
-    token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3NDA2OTE5MzEsInJvbGVzIjpbIlJPTEVfVVNFUiJdLCJhZGRyZXNzIjoidGhpY2sxOTRAZWRueS5uZXQiLCJpZCI6IjY3YzBkOWRiZjIwOGY1OWVmNDBkOWZhZCIsIm1lcmN1cmUiOnsic3Vic2NyaWJlIjpbIi9hY2NvdW50cy82N2MwZDlkYmYyMDhmNTllZjQwZDlmYWQiXX19.iE0RsxOrYvlzqZjpxctowAbW9-4VVSHvWjfK0wbc8g8vdDk4N8yktQtdaK2TfIAcOtY4_bWjToFv2yVRyYyfTg"
+    token = ""
     mail_helper = MailTmHelper(token)
     verification_code = mail_helper.get_verification_code()
     print("Doğrulama kodu:", verification_code)
