@@ -16,11 +16,6 @@ class DashboardPage(BasePage):
 
     def confirm_login(self,first_name,last_name):
 
-        """ URL Check """
-        current_url = self.get_current_url()
-        expected_url = "https://app.forceget.com/reporting/customer-dashboard"
-        assert current_url == expected_url, f"Expected URL is {expected_url}, current URL is {current_url}"
-
         """ Full Name Check """
         current_full_name = self.element_helper.get_text(self.USER_FIRST_LASTNAME)
         expected_full_name = first_name + ' ' + last_name

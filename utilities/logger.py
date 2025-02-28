@@ -25,6 +25,10 @@ class Logger:
         logger = logging.getLogger(name)
         logger.setLevel(logging.INFO)
 
+        # Remove existing handlers to prevent duplicate logging
+        if logger.hasHandlers():
+            logger.handlers.clear()
+
         # Create file handler with timestamp in filename
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         file_handler = logging.FileHandler(f"logs/test_run_{timestamp}.log")
