@@ -117,7 +117,7 @@ Make sure to configure the test data in `config/config.py` or through environmen
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
-Your Name - hasankucukselek7@gmail.com
+Email - hasankucukselek7@gmail.com
 Project Link: [https://github.com/hasankselek/selenium-python-case]
 
 ---
@@ -239,5 +239,5 @@ Testleri çalıştırmadan önce test verilerini `config/config.py` dosyasında 
 Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için LICENSE dosyasına bakın.
 
 ## İletişim
-İsminiz - hasankucukselek7@gmail.com
+Email - hasankucukselek7@gmail.com
 Proje Bağlantısı: https://github.com/hasankselek/selenium-python-case 
